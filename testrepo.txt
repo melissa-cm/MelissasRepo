@@ -1,1 +1,2 @@
 This is a txt document I am using to learn sourcetree.
+This is the second change I will stage, and then I will commit it.
