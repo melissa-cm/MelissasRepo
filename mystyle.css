@@ -1,0 +1,30 @@
+body{
+    background-image: url(minimalist.jpg);
+    background-size: cover;
+    background-position: bottom;
+    padding: 20px;
+}
+h1{
+    font-size: 40px;
+    margin-top: 0;
+    margin-bottom: 15px;
+    color:darkslategray;
+    text-align: center;
+    text-transform: uppercase;
+}
+h2{
+    color: darkslategray;
+    margin: 10px;
+    text-decoration: underline solid;
+}
+p{
+    color:sienna;
+    text-align:justify;
+    font-size: 20px;
+    margin-right: 400px;
+}
+li,td{
+    color:sienna;
+    text-align:left;
+    font-size: 20px;
+}
