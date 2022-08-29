@@ -1,4 +1,0 @@
-This is a txt document I am using to learn sourcetree.
-This is the second change I will stage, and then I will commit it.
-This is the third change I will stage, and then I will commit it.
-Hello Melissa! Here I am adding some more changes to your text file. Hope you are having a lot of fun learning to code :)
