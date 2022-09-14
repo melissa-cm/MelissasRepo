@@ -191,7 +191,15 @@ def my_string(*args):          #Second method (it does use a "dev" element but I
 
 my_string(str(my_list))
     
-
+#CORRECT METHOD#####################################################################################
+def numberToString(the_list):
+    another_list = []
+    
+    for item in the_list:
+        converted_item = str(item)
+        another_list.append(converted_item)
+        
+    return(another_list)
 
 # In[ ]:
 
