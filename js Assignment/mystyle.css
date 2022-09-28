@@ -1,0 +1,125 @@
+body {
+    background-image: url(minimalist.jpg);
+    background-color: rgb(235, 235, 235);
+    background-repeat: no-repeat;
+    background-size:contain;
+   }
+
+h1 {
+    font-size: 3.5rem;
+    text-align: center;
+    line-height: 100vh;
+    color: wheat;
+    
+}
+
+h2 {
+    font-size: 1.5rem;
+    color:rgb(128, 0, 0);
+}
+
+
+   p {
+    margin-right: 300px;
+}
+
+button {
+    background-color: rgb(68, 0, 0);
+    border: none;
+    color: white;
+    position: fixed ;
+    top: 10px;
+    right: 20px;
+    padding: 1rem;
+    transition: transform 0.3s ease-in-out;
+
+}
+
+
+button.active {
+    transform: translateX(-180px);
+}
+
+
+nav {
+    background-color: rgb(68, 0, 0);
+    position: fixed;
+    top: 0;
+    right: 0;
+    height: 100vh;
+    padding: 2rem;
+    transform: translateX(100%);
+    transition: transform 0.3s ease-in-out; 
+}
+
+nav.active {
+    transform: translateX(0);
+}
+
+nav ul {
+    padding: 0;
+    list-style-type: none;
+    margin: 0;
+
+}
+
+nav ul li {
+    padding: 1rem 0;
+
+}
+
+nav a {
+    color: white;
+    font-size: 1rem;
+    text-decoration: none;
+}
+
+
+span{
+    transition: all 0.5s ease;
+    
+
+}
+
+span.fade{
+    color:rgb(68, 0, 0);
+
+}
+
+#myBtn {
+  /*display: none; /* Hidden by default */
+  /*position: fixed; /* Fixed/sticky position */
+  /*bottom: 20px; /* Place the button at the bottom of the page */
+  /*right: 800px; /* Place the button 30px from the right */
+  /*z-index: 99; /* Make sure it does not overlap */
+  /*border: none; /* Remove borders */
+  /*outline: none; /* Remove outline */
+  /*background-color: rgb(128, 0, 0); /* Set a background color */
+  /*color: white; /* Text color */
+  /*cursor: pointer; /* Add a mouse pointer on hover */
+  /*padding: 15px 32px; /* Some padding */
+  /*border-radius: 10px; /* Rounded corners */
+  /*font-size: 18px; /* Increase font size */ 
+
+  background-color: rgb(68, 0, 0);
+  position: fixed;
+  left: 850px;
+  right: 850px;
+  top: 800px;
+  border: none;
+  color: white;
+  padding: 15px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+   
+  }
+  
+#myBtn:hover {
+    background-color: #555; /* Add a dark-grey background on hover */
+  }
+  
+
